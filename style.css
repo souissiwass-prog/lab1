@@ -1,0 +1,95 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d0d0d; /* Deep black */
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 50px 20px;
+    background: linear-gradient(90deg, #111, #1a1a1a);
+    border-bottom: 4px solid #e10600; /* F1 red */
+}
+
+header h1 {
+    font-size: 50px;
+    color: #e10600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    margin-top: 10px;
+    color: #cccccc;
+    font-style: italic;
+}
+
+/* Navigation */
+nav {
+    background-color: #111;
+    padding: 15px;
+    border-bottom: 2px solid #e10600;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e10600;
+}
+
+/* Main */
+main {
+    padding: 50px 20px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    margin: 20px auto;
+    padding: 25px;
+    width: 60%;
+    border-left: 5px solid #e10600;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(225, 6, 0, 0.5);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #e10600;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #111;
+    border-top: 4px solid #e10600;
+    font-size: 14px;
+}
